@@ -6,6 +6,8 @@
 # Cutom files
 localBuild/
 
+.vscode
+
 # User-specific files
 *.suo
 *.user
@@ -16,6 +18,7 @@ localBuild/
 *.userprefs
 
 # Build results
+[Oo]ut/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/

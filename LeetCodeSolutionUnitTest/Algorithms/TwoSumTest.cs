@@ -1,4 +1,4 @@
-using LeetCodeSolutions.Explore;
+﻿using LeetCodeSolutions.Algorithms;
 using Xunit;
 
 namespace LeetCodeSolutions.UnitTest.Explor

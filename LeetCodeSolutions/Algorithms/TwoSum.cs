@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LeetCodeSolutions.Explore
+namespace LeetCodeSolutions.Algorithms
 {
     /// <summary>
     /// 两数之和
@@ -53,10 +53,8 @@ namespace LeetCodeSolutions.Explore
 
         /// <summary>
         /// for + Dictionary
+        /// [Better Solution]
         /// </summary>
-        /// <param name="nums"></param>
-        /// <param name="target"></param>
-        /// <returns></returns>
         public static int[] Solution3(int[] nums, int target)
         {
             var dic = new Dictionary<int, int>(nums.Length);
@@ -67,7 +65,7 @@ namespace LeetCodeSolutions.Explore
                 {
                     return new[] { dic[ano], i };
                 }
-                dic.TryAdd(nums[i], i);
+                dic.Add(nums[i], i);
             }
             throw new ArgumentException("No two sum solution");
         }

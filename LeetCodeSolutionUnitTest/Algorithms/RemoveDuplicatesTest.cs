@@ -1,7 +1,7 @@
-﻿using LeetCodeSolutions.Array;
+﻿using LeetCodeSolutions.Algorithms;
 using Xunit;
 
-namespace LeetCodeSolutions.UnitTest.Array
+namespace LeetCodeSolutions.UnitTest.Algorithms
 {
     public class RemoveDuplicatesTest
     {

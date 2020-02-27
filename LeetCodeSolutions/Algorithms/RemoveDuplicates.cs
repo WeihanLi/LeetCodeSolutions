@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace LeetCodeSolutions.Array
+namespace LeetCodeSolutions.Algorithms
 {
     public class RemoveDuplicates
     {
